@@ -1,0 +1,34 @@
+@media only screen and (max-width: 600px){
+.h1 {
+    text-align: center;
+    width: 80%;
+    font-family: roboto mono;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 2em;
+  }
+.h2 {
+	   text-align: center;
+    width: 80%;
+    font-family: roboto mono;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.5em;
+}
+.img {
+    display: block;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 10px;
+  }
+.header-nav, .single-nav {
+    padding: 50px 40px;
+    width: 240px;
+    position: fixed;
+    top: 0;
+    right: 20px;
+    z-index: 3;
+    overflow-y: auto;
+}
+}
