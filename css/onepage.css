@@ -1,11 +1,11 @@
 @media only screen and (max-width: 600px){
 
- @font-face {
-      font-family: 'roboto_monoregular';
-      src: url('robotomono-regular-webfont.woff2') format('woff2'),
-           url('robotomono-regular-webfont.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;
+@font-face {
+   font-family: 'roboto_monoregular';
+   src: url('robotomono-regular-webfont.woff2') format('woff2'),
+   url('robotomono-regular-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
   
   }
 
@@ -14,6 +14,7 @@ p {
   font-size: 15px;
   line-height: 1.7em;
   letter-spacing: -0.013;
+  font-weight: 400;
 }
 
 .body-tekst {
