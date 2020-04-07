@@ -1,20 +1,49 @@
 @media only screen and (max-width: 600px){
-.h1 {
+
+ @font-face {
+      font-family: 'roboto_monoregular';
+      src: url('robotomono-regular-webfont.woff2') format('woff2'),
+           url('robotomono-regular-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  
+  }
+
+p {
+  font-family: 'roboto_monoregular';
+  font-size: 15px;
+  line-height: 1.7em;
+  letter-spacing: -0.013;
+}
+
+.body-tekst {
+     margin: 5px;
+     width: 100%;
+}
+
+h1 {
     text-align: center;
     width: 80%;
-    font-family: roboto mono;
+    font-family: 'roboto_monoregular';
     margin-right: auto;
     margin-left: auto;
     font-size: 2em;
   }
-.h2 {
-	   text-align: center;
-    width: 80%;
-    font-family: roboto mono;
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 1.5em;
+h2 {
+    font-family: 'roboto_monoregular';
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 22px;
 }
+
+.farve-tekst {
+  color: #D26D75;
+}
+
+.farve-tekst2 {
+  color: #525F6D;
+}
+
 .img {
     display: block;
     width: 80%;
@@ -36,4 +65,19 @@
 .question-img {
   width: 266px;
   height: 266px;
+  margin-left: 80px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.headertext {
+  margin-left: 20px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding-bottom: 500px;
+  display: inline-block;
+  border: 2px solid #707070;
+  box-sizing: border-box;
 }
