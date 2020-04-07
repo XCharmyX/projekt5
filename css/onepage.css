@@ -32,3 +32,8 @@
     overflow-y: auto;
 }
 }
+
+.question-img {
+  width: 266px;
+  height: 266px;
+}
