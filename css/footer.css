@@ -1,0 +1,121 @@
+.center {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+div {
+    display: block;
+}
+
+footer {
+    padding: 150px 100px;
+    background-color: #515f6d;
+    position: relative;
+    color: #fff;
+}
+
+body {
+    color: #000;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: normal;
+    font-family: "Roboto Mono", monospace;
+    letter-spacing: -0.013em;
+}
+
+body {
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+html {
+    color: -internal-root-color;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+::selection {
+    background: #6696ac;
+    color: #fff;
+}
+
+footer .footer-content {
+    max-width: 660px;
+}
+
+.row {
+    overflow: hidden;
+}
+
+footer h4 {
+    color: #fff;
+}
+
+h4 {
+    margin-bottom: 1.7em;
+    color: #515f6d;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+h1, h2, h3, h4 {
+    font-size: inherit;
+}
+
+h1, h2, h3, h4, p, blockquote, figure, ol, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+footer p {
+    padding-left: 0;
+}
+
+p {
+    margin-bottom: 1.7em;
+    line-height: 1.7;
+}
+
+@media (max-width: 700px)
+footer .col33 {
+    margin-bottom: 60px;
+    width: 100%;
+    float: none;
+}
+
+.col25, .col33, .col50, .col100 {
+    float: left;
+}
+
+.col33 {
+    width: 33.3333%;
+}
