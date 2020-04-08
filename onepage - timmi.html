@@ -9,6 +9,7 @@
   <meta charset="utf-8">
   <meta name="description" content="House of Code's onepage hvor du kan få en prisvurdering på din app ide..">
   <meta name="keywords" content=" House of code, Odense, app, Hjælp, kodning">
+  <script src="hoc.js" defer></script>
 </head>
 <body>
   <h1 class="header" >Du har en ide til en app 
@@ -45,6 +46,34 @@
      
   
   <input type="button" class="idea-button" value="Godkend">
+
+  <div>
+    <h2>Fortæl os om din app, hvad skal den indeholde?</h2>
+</div>
+
+<div class="row">
+    <div class="column">
+        <ul id="myUL">
+            <li>input</li>
+            <li>input</li>
+            <li>input</li>
+            <li>input</li>
+            <li>input</li>
+            <li>input</li>
+        </ul>
+        <div id="myDIV" class="morebtn">
+            <input type="text" id="myInput" placeholder="Tilføj flere elementer...">
+            <span onclick="newElement()" class="addBtn">Tilføj</span>
+          </div>
+          <div class="morebtn">
+              <div class="fill"></div>
+              <button class="viderebtn">Videre</button>
+          </div>
+    </div>
+    <div class="column">
+        <img class="question" src="img/question.png" alt="">
+    </div>
+</div>
 
 </body>
 </html>
