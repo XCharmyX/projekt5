@@ -1,11 +1,4 @@
-@font-face {
-  font-family: 'roboto_monoregular';
-  src: url('robotomono-regular-webfont.woff2') format('woff2'),
-  url('robotomono-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
- 
- }
+
 
 @media only screen and (max-width: 600px){
 
@@ -22,7 +15,7 @@
 }
 
 p {
-  font-family: 'roboto_monoregular';
+  font-family: 'Roboto Mono', 'monospace';
   font-size: 15px;
   line-height: 1.7em;
   letter-spacing: -0.013;
@@ -37,30 +30,35 @@ p {
 h1 {
     text-align: center;
     width: 80%;
-    font-family: 'roboto_monoregular';
+    font-family: 'Roboto Mono', 'monospace';
     margin-right: auto;
     margin-left: auto;
     font-size: 2em;
+    background-color: rebeccapurple;
   }
 h2 {
-    font-family: 'roboto_monoregular';
-    font-size: 22px;
+    font-family: 'Roboto Mono', 'monospace';
+    font-size: 23px;
 }
 
 .farve-tekst {
+  font-family: 'Roboto Mono', 'monospace';
   color: #D26D75;
+  background-color: navy;
 }
 
 .farve-tekst2 {
+  font-family: 'Roboto Mono', 'monospace';
   color: #525F6D;
 }
 
 .light-bulb {
     display: block;
-    width: 80%;
+    width: 350px;
     margin-right: auto;
     margin-left: auto;
-    padding-bottom: 10px;
+    padding-top: 100px;
+    padding-bottom: 200px;
   }
   
 .header-nav, .single-nav {
@@ -71,51 +69,85 @@ h2 {
     right: 20px;
     z-index: 3;
     overflow-y: auto;
-}
+    background-color: violet;
 }
 
 
 .headertext {
+  font-family: 'Roboto Mono', 'monospace';
   margin-left: 20px;
+  background-color: cadetblue;
 }
 
 .cost-header {
+  font-family: 'Roboto Mono', 'monospace';
   padding-left: 90px;
 }
 
 .problemstilling-header {
-  margin-left: 90px;
+  font-family: 'Roboto Mono', 'monospace';
+  margin-left: 45px;
+  margin-bottom: 50px;
 }
 
-input[type=text], select {
-  width: 75%;
-  padding-bottom: 500px;
-  margin-left: 90px;
-  display: inline-block;
+textarea {
+  resize: none;
+  font-family: 'Roboto Mono', 'monospace';
+  font-size: 18px;
+  width: 340px;
+  height: 500px;
+  max-height: 500px;
+  margin-left: 50px;
   border: 2px solid #707070;
-  box-sizing: border-box;
 }
 
-@media only screen and (min-width: 600px){
+
+.idea-button {
+  font-family: 'Roboto Mono', 'monospace';
+  display: inline-block;
+  font-size: 20px;
+  color: #6696AC;
+  padding: 15px 32px;
+  margin-left: 240px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border: 3px solid #6696AC;
+  cursor: pointer;
+}
+}
+
+@media only screen and (min-width: 600px) {
 
 
+
+.cost-header {
+  color: #525F6D;
+}
 
 .problemstilling-header {
+  font-family: 'Roboto Mono', 'monospace';
   margin-top: 100px;
   margin-left: 150px;
   max-width: 1200px;
   font-size: 40px;
+  color: #707070;
 }
 
 .web-problemstilling-header {
+  font-family: 'Roboto Mono', 'monospace';
   font-size: 50px;
   max-width: 1200px;
-  font-weight: 100;
+  font-weight: 300;
+}
+
+.tegn {
+  font-weight: 300;
 }
 
 .tegn2 {
   margin-left: 10px;
-  font-weight: 100;
+  font-weight: 300;
+  color:#707070;
 
 }
 
@@ -124,18 +156,21 @@ input[type=text], select {
 }
 
 p {
-  font-family: 'roboto_monoregular';
+  font-family: 'Roboto Mono', 'monospace';
   font-size: 15px;
   max-width: 300px;
   padding-left: 85px;
   text-align: left;
   line-height: 1.7em;
   letter-spacing: -0.013;
-  font-weight: 400;
 }
 
 .light-bulb {
   height: 300px;
+  padding-top: 50px;
+  width: 400px;
+  min-width: 200px;
+  max-width: 500px;
 }
 
   .item1 { grid-area: text; }
@@ -148,6 +183,7 @@ p {
   }
 
   .cost-header {
+    font-family: 'Roboto Mono', 'monospace';
     padding-left: 85px;
   }
 
@@ -163,9 +199,8 @@ p {
     padding-bottom: 200px;
   }
 
-}
-
 input[type=text], select {
+  font-family: 'Roboto Mono', 'monospace';
   width: 55%;
   margin-top: 100px;
   padding-bottom: 500px;
@@ -173,4 +208,21 @@ input[type=text], select {
   display: inline-block;
   border: 2px solid #707070;
   box-sizing: border-box;
+}
+
+#idea-button {
+  color: #6696AC;
+  border: 3px solid #6696AC;
+  height: 42px;
+  width: 142px;
+  font-size: 20px;
+}
+
+.idea-button {
+  text-align: right;
+  margin-bottom: 300px;
+  margin-top: 50px;
+  margin-right: 525px;
+}
+
 }
