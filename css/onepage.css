@@ -1,13 +1,25 @@
+@font-face {
+  font-family: 'roboto_monoregular';
+  src: url('robotomono-regular-webfont.woff2') format('woff2'),
+  url('robotomono-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+ 
+ }
+
 @media only screen and (max-width: 600px){
 
-@font-face {
-   font-family: 'roboto_monoregular';
-   src: url('robotomono-regular-webfont.woff2') format('woff2'),
-   url('robotomono-regular-webfont.woff') format('woff');
-   font-weight: normal;
-   font-style: normal;
-  
-  }
+.web-problemstilling-header {
+  display: none;
+}
+
+.tegn {
+  display: none;
+}
+
+.tegn2 {
+  display: none;
+}
 
 p {
   font-family: 'roboto_monoregular';
@@ -32,8 +44,6 @@ h1 {
   }
 h2 {
     font-family: 'roboto_monoregular';
-    margin-top: 50px;
-    margin-bottom: 50px;
     font-size: 22px;
 }
 
@@ -45,13 +55,14 @@ h2 {
   color: #525F6D;
 }
 
-.img {
+.light-bulb {
     display: block;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
     padding-bottom: 10px;
   }
+  
 .header-nav, .single-nav {
     padding: 50px 40px;
     width: 240px;
@@ -63,21 +74,101 @@ h2 {
 }
 }
 
-.question-img {
-  width: 266px;
-  height: 266px;
-  margin-left: 80px;
-  margin-top: 70px;
-  margin-bottom: 70px;
-}
 
 .headertext {
   margin-left: 20px;
 }
 
+.cost-header {
+  padding-left: 90px;
+}
+
+.problemstilling-header {
+  margin-left: 90px;
+}
+
 input[type=text], select {
-  width: 100%;
+  width: 75%;
   padding-bottom: 500px;
+  margin-left: 90px;
+  display: inline-block;
+  border: 2px solid #707070;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 600px){
+
+
+
+.problemstilling-header {
+  margin-top: 100px;
+  max-width: 1200px;
+  font-size: 40px;
+}
+
+.web-problemstilling-header {
+  font-size: 50px;
+  max-width: 1200px;
+  font-weight: 100;
+}
+
+.tegn2 {
+  margin-left: 10px;
+  font-weight: 100;
+
+}
+
+.farve-tekst3 {
+  color: #D8A55A;
+}
+
+p {
+  font-family: 'roboto_monoregular';
+  font-size: 15px;
+  max-width: 300px;
+  padding-left: 85px;
+  text-align: left;
+  line-height: 1.7em;
+  letter-spacing: -0.013;
+  font-weight: 400;
+}
+
+.light-bulb {
+  height: 300px;
+}
+
+  .item1 { grid-area: text; }
+  .item2 { grid-area: image; }
+  
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'text image';
+  }
+
+  .cost-header {
+    padding-left: 85px;
+  }
+
+  .item1 {
+    padding-top: 300px;
+    padding-left: 70px;
+    padding-bottom: 200px;
+  }
+
+  .item2 {
+    padding-top: 280px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+  }
+
+}
+
+input[type=text], select {
+  width: 55%;
+  margin-top: 100px;
+  padding-bottom: 500px;
+  margin-left: 90px;
   display: inline-block;
   border: 2px solid #707070;
   box-sizing: border-box;
