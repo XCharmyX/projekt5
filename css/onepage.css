@@ -2,6 +2,7 @@
 
 @media only screen and (max-width: 600px){
 
+/* Elementer som IKKE skal vises i mobilversion */
 .web-problemstilling-header {
   display: none;
 }
@@ -41,11 +42,13 @@ h2 {
     font-size: 23px;
 }
 
+/* "Hvad skal din app koste" farve */
 .farve-tekst {
   font-family: 'Roboto Mono', 'monospace';
   color: #D26D75;
 }
 
+/* "Fortæl os om din idé" farve */
 .farve-tekst2 {
   font-family: 'Roboto Mono', 'monospace';
   color: #525F6D;
@@ -99,6 +102,7 @@ h2 {
   margin-bottom: 50px;
 }
 
+/* Box hvor man skriver sine idéer og tanker ind */
 textarea {
   resize: none;
   font-family: 'Roboto Mono', 'monospace';
@@ -110,7 +114,7 @@ textarea {
   border: 2px solid #707070;
 }
 
-
+/* Godkend knap når man har skrevet sine ideer og tanker ind */
 .idea-button {
   font-family: 'Roboto Mono', 'monospace';
   display: inline-block;
@@ -289,10 +293,12 @@ input {
 
 
 
+/* "Hvad skal din app koste?" header */
 .cost-header {
   color: #525F6D;
 }
 
+/* "Fortæl os om din idé" header */
 .problemstilling-header {
   font-family: 'Roboto Mono', 'monospace';
   margin-top: 100px;
@@ -302,6 +308,7 @@ input {
   color: #707070;
 }
 
+/* "Hvad er din vision" header, som kun vises på stor side */
 .web-problemstilling-header {
   font-family: 'Roboto Mono', 'monospace';
   font-size: 50px;
@@ -309,6 +316,7 @@ input {
   font-weight: 300;
 }
 
+/* Krøllede parentes */
 .tegn {
   font-weight: 300;
 }
@@ -320,10 +328,12 @@ input {
 
 }
 
+/* Farve i "hvad er din vision" header */
 .farve-tekst3 {
   color: #D8A55A;
 }
 
+/* Farve i "hvad skal den indeholde" header*/
 .farve-tekst4 {
   color: #6696AC;
 }
@@ -349,29 +359,34 @@ p {
   .item1 { grid-area: text; }
   .item2 { grid-area: image; }
   
+/* Grid for lyspære billede og tekst omkring hvad en app koster */
   .grid-container {
     display: grid;
     grid-template-areas:
       'text image';
   }
 
+/* Hvad skal din app koste? */
   .cost-header {
     font-family: 'Roboto Mono', 'monospace';
     padding-left: 85px;
   }
 
+  /* Tekst omkring hvad en app koster */
   .item1 {
     padding-top: 300px;
     padding-left: 70px;
     padding-bottom: 200px;
   }
 
+/* Lyspære billede */
   .item2 {
     padding-top: 280px;
     padding-right: 200px;
     padding-bottom: 200px;
   }
 
+/* Box hvor man skriver sine idéer og tanker ind */
 textarea {
   resize: none;
   font-family: 'Roboto Mono', 'monospace';
@@ -383,6 +398,7 @@ textarea {
   border: 2px solid #707070;
 }
 
+/* Godkend knap når man har skrevet sine ideer og tanker ind */
 .idea-button {
   font-family: 'Roboto Mono', 'monospace';
   display: inline-block;
