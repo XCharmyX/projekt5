@@ -236,7 +236,7 @@ ul li.checked::before {
 }
 
 /* Style the input */
-input {
+#myInput {
   margin: 0;
   border: none;
   border-radius: 0;
