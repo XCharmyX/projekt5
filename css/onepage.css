@@ -299,7 +299,7 @@ input {
 }
 
 .cost-text {
-  max-width: 450px;
+  max-width: 350px;
 }
 
 /* "Fortæl os om din idé" header */
@@ -352,9 +352,9 @@ p {
 }
 
 .light-bulb {
-  height: 300px;
-  padding-top: 50px;
-  width: 400px;
+  height: 400px;
+  padding-left: 150px;
+  width: 500px;
   min-width: 200px;
   max-width: 500px;
 }
