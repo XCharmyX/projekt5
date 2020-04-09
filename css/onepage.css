@@ -298,6 +298,10 @@ input {
   color: #525F6D;
 }
 
+.cost-text {
+  max-width: 450px;
+}
+
 /* "Fortæl os om din idé" header */
 .problemstilling-header {
   font-family: 'Roboto Mono', 'monospace';
@@ -341,7 +345,6 @@ input {
 p {
   font-family: 'Roboto Mono', 'monospace';
   font-size: 15px;
-  max-width: 300px;
   padding-left: 85px;
   text-align: left;
   line-height: 1.7em;
