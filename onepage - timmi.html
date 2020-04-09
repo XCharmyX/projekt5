@@ -40,12 +40,11 @@
   <div class="problemstilling-header"><h2>Fortæl os om din <span class="farve-tekst2">ide</span><span class="tegn2">{</span>
   <div class="web-problemstilling-header">Hvad er din <span class="farve-tekst3">vision?</span><div class="tegn">}</div></h2></div></div></div>
 
-  
-  <textarea name="idea" placeholder="Skriv f.eks. dine problemstillinger, tanker ind her..."></textarea>
-  
-     
-  
-  <input type="button" class="idea-button" value="Godkend">
+ <form name="myForm"  onsubmit="return validateForm()" method="post">
+    <textarea class="idea" placeholder="Skriv f.eks. dine problemstillinger, tanker ind her..." name="fname"></textarea>
+    <input class="idea-button" type="submit" value="Godkend">
+  </form>
+  <p id="demo"></p>
 
   <div class="problemstilling-header"><h2>Fortæl os om din <span class="farve-tekst5">app</span><span class="tegn2">{</span>
     <div class="web-problemstilling-header">Hvad skal den <span class="farve-tekst4">indeholde?</span><div class="tegn">}</div></h2></div></div></div>

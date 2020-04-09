@@ -1,7 +1,11 @@
 function validateForm() {
   var x = document.forms["myForm"]["fname"].value;
   if (x == "") {
-    alert("Skriv venligst lidt omkring dine idéer til app");
+    alert("Skriv venligst lidt omkring dine idéer og tanker i forhold til din app");
+    return false;
+  }
+  else {
+    alert(" Tak! Din besked er modtaget!");
     return false;
   }
 }

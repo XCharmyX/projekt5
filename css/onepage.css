@@ -392,7 +392,18 @@ p {
   }
 
 /* Box hvor man skriver sine idéer og tanker ind */
-textarea {
+.idea {
+  resize: none;
+  font-family: 'Roboto Mono', 'monospace';
+  font-size: 20px;
+  width: 850px;
+  height: 500px;
+  max-height: 500px;
+  margin-left: 150px;
+  border: 2px solid #707070;
+}
+
+#idea-input {
   resize: none;
   font-family: 'Roboto Mono', 'monospace';
   font-size: 20px;
