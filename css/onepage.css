@@ -432,7 +432,6 @@ p {
   box-sizing: border-box;
 }
 
-/* Remove margins and padding from the list */
 #myUL {
   margin-right: 10%;
   margin-top: 5%;
@@ -440,7 +439,7 @@ p {
   list-style-type: none;
 }
 
-/* Style the list items */
+/* Style*/
 #myUL li {
   cursor: pointer;
   position: relative;
