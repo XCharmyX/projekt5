@@ -28,15 +28,6 @@ p {
      width: 100%;
 }
 
-h1 {
-    text-align: center;
-    width: 80%;
-    font-family: 'Roboto Mono', 'monospace';
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 2em;
-    background-color: rebeccapurple;
-  }
 h2 {
     font-family: 'Roboto Mono', 'monospace';
     font-size: 23px;
@@ -92,14 +83,15 @@ h2 {
 
 .cost-text {
   font-family: 'Roboto Mono', 'monospace';
-  padding-left: 15px;
+  padding-left: 20px;
   max-width: 360px;
   min-width: 200px;
 }
 
 .problemstilling-header {
   font-family: 'Roboto Mono', 'monospace';
-  margin-left: 15px;
+  font-size: 23px;
+  margin-left: 20px;
   margin-bottom: 50px;
 }
 
