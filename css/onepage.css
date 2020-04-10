@@ -288,7 +288,12 @@ textarea {
 
 /* "Hvad skal din app koste?" header */
 .cost-header {
-  color: #525F6D;
+  font-family: 'Roboto Mono', 'monospace';
+  margin-left: 70px;
+  max-width: 1200px;
+  font-size: 40px;
+  color: #707070;
+  position: absolute;
 }
 
 .cost-text {
@@ -298,7 +303,6 @@ textarea {
 /* "Fortæl os om din idé" header */
 .problemstilling-header {
   font-family: 'Roboto Mono', 'monospace';
-  margin-top: 100px;
   margin-left: 150px;
   max-width: 1200px;
   font-size: 40px;
@@ -308,9 +312,10 @@ textarea {
 /* "Hvad er din vision" header, som kun vises på stor side */
 .web-problemstilling-header {
   font-family: 'Roboto Mono', 'monospace';
-  font-size: 50px;
+  font-size: 40px;
   max-width: 1200px;
   font-weight: 300;
+  margin-bottom: 50px;
 }
 
 /* Krøllede parentes */
@@ -413,7 +418,7 @@ p {
   font-size: 20px;
   color: #6696AC;
   padding: 15px 32px;
-  margin-left: 847px;
+  margin-left: 852px;
   margin-top: 10px;
   margin-bottom: 200px;
   border: 3px solid #6696AC;
