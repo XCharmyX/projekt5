@@ -58,7 +58,7 @@ h2 {
   color: #6696AC;
 }
 
-.light-bulb {
+.light-.mybulb {
     display: block;
     width: 350px;
     margin-right: auto;
@@ -134,15 +134,15 @@ textarea {
   box-sizing: border-box;
 }
 
-/* Remove margins and padding from the list */
-ul {
+/* Remove margins and padding from the list
+#myUL{
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
 /* Style the list items */
-ul li {
+#myUL li {
   cursor: pointer;
   position: relative;
   padding: 12px 8px 12px 40px;
@@ -178,23 +178,23 @@ ul li {
 
 
 /* Set all odd list items to a different color (zebra-stripes) */
-ul li:nth-child(odd) {
+#myUL li:nth-child(odd) {
   background: #f9f9f9;
 }
 
 /* Darker background-color on hover */
-ul li:hover {
+#myUL li:hover {
   background: #ddd;
 }
 
 /* When clicked on, add a background color */
-ul li.checked {
+#myUL li.checked {
   background: #525f6d;
   color: #fff;
 }
 
 /* Add a "checked" mark when clicked on */
-ul li.checked::before {
+#myUL li.checked::before {
   content: '';
   position: absolute;
   border-color: #fff;
@@ -353,7 +353,7 @@ p {
   min-width: 300px;
 }
 
-.light-bulb {
+.light-.mybulb {
   height: 400px;
   padding-left: 150px;
   width: 500px;
@@ -433,14 +433,14 @@ p {
 }
 
 /* Remove margins and padding from the list */
-ul {
+#myUL {
   margin-right: 10%;
   padding-left: 25%;
   list-style-type: none;
 }
 
 /* Style the list items */
-ul li {
+#myUL li {
   cursor: pointer;
   position: relative;
   padding: 12px 8px 12px 40px;
@@ -475,23 +475,23 @@ ul li {
 
 
 /* Set all odd list items to a different color (zebra-stripes) */
-ul li:nth-child(odd) {
+#myUL li:nth-child(odd) {
   background: #f9f9f9;
 }
 
 /* Darker background-color on hover */
-ul li:hover {
+#myUL li:hover {
   background: #ddd;
 }
 
 /* When clicked on, add a background color */
-ul li.checked {
+#myUL li.checked {
   background: #525f6d;
   color: #fff;
 }
 
 /* Add a "checked" mark when clicked on */
-ul li.checked::before {
+#myUL li.checked::before {
   content: '';
   position: absolute;
   border-color: #fff;
