@@ -134,7 +134,6 @@ textarea {
   box-sizing: border-box;
 }
 
-/* Remove margins and padding from the list
 #myUL{
   margin: 0;
   padding: 0;
@@ -174,6 +173,8 @@ textarea {
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
+  width: 77%;
+  margin-left: 20px;
 }
 
 
@@ -194,7 +195,7 @@ textarea {
 }
 
 /* Add a "checked" mark when clicked on */
-#myUL li.checked::before {
+#myUL li.checked:before {
   content: '';
   position: absolute;
   border-color: #fff;
@@ -241,7 +242,7 @@ textarea {
   margin: 0;
   border: none;
   border-radius: 0;
-  width: 75%;
+  width: 62.4%;
   padding: 10px;
   float: left;
   font-size: 16px;
@@ -265,6 +266,7 @@ textarea {
 .viderebtn {
   padding: 10px;
   margin-top: 10px;
+  margin-bottom: 35%;
   width: 25%;
   background: none;
   color: #6696ac;
@@ -281,7 +283,7 @@ textarea {
   margin: 0;
   border: none;
   border-radius: 0;
-  width: 75%;
+  width: 62.4%;
   padding: 10px;
   float: left;
   font-size: 16px;
@@ -491,7 +493,7 @@ p {
 }
 
 /* Add a "checked" mark when clicked on */
-#myUL li.checked::before {
+#myUL li.checked:before {
   content: '';
   position: absolute;
   border-color: #fff;
@@ -520,6 +522,7 @@ p {
 /* Style the header */
 .morebtn {
   margin-right: 10%;
+  margin-top: 5%;
   padding-left: 25%;
   text-align: center;
 }
@@ -536,7 +539,7 @@ p {
   margin: 0;
   border: none;
   border-radius: 0;
-  width: 75%;
+  width: 66.4%;
   padding: 10px;
   float: left;
   font-size: 16px;
@@ -559,7 +562,8 @@ p {
 
 .viderebtn {
   padding: 10px;
-  margin-top: 10px;
+  margin-top: -15px;
+  margin-bottom: 15%;
   width: 25%;
   background: none;
   color: #6696ac;
@@ -576,7 +580,7 @@ p {
   margin: 0;
   border: none;
   border-radius: 0;
-  width: 75%;
+  width: 66.4%;
   padding: 10px;
   float: left;
   font-size: 16px;
