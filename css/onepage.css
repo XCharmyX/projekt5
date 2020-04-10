@@ -287,42 +287,48 @@ textarea {
 
 @media only screen and (min-width: 600px) {
 
-.ul-carousel { 
-  display: flex; 
-  margin-bottom: 300px;
-  overflow: hidden; 
+.carousel {
+  position: relative;
   height: 600px;
+  width: 80%;
+  margin: 0 auto;
 
 }
 
-li { 
-  display: block; 
-  list-style: none; 
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.img4-carousel {
-  width: 1600px;
+.carousel-track-container {
+  background: lightgreen;
+  height: 100%;
+  position: relative;
 }
 
-button.prev, button.next {
-  display: flex; 
-  font-size: 32px;
-  align-items: center; 
-  justify-content: center;
-  color: #FFF; 
-  background-color: #707070;
-  border-radius: 50%;
-  margin: 20px;
-  width: 44px; height: 44px;
-  cursor: pointer;
+.carousel-track {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
-button.prev {
-  position: absolute; left: 0; top: 200px;
+.carousel-slide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
 }
 
-button.next {
-  position: absolute; right: 0; top: 200px;
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-button img {
+  width: 12px;
+  height: 20px;
 }
 
 /* "Hvad skal din app koste?" header */
