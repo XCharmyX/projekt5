@@ -246,7 +246,7 @@ textarea {
   width: 25%;
   background: none;
   color: #6696ac;
-  float: left;
+  float: right;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
@@ -262,13 +262,14 @@ textarea {
   width: 25%;
   background: none;
   color: #6696ac;
-  float: left;
+  float: right;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
   border-radius: 0;
   border-color: #6696ac;
   border: solid;
+  margin-bottom: 200px;
 }
 
 .fill {
@@ -471,7 +472,7 @@ p {
 #myUL {
   margin-right: 10%;
   margin-top: 5%;
-  padding-left: 18.5%;
+  padding-left: 150px;
   list-style-type: none;
 }
 
@@ -555,9 +556,9 @@ p {
 
 /* Style the header */
 .morebtn {
+  margin-left: 150px;
   margin-right: 10%;
   margin-top: 5%;
-  padding-left: 25%;
   text-align: center;
 }
 
@@ -573,9 +574,8 @@ p {
   margin: 0;
   border: none;
   border-radius: 0;
-  width: 76.4%;
+  width: 50%;
   padding: 10px;
-  margin-left: -10%;
   float: left;
   font-size: 16px;
 }
@@ -586,7 +586,7 @@ p {
   width: 25%;
   background: none;
   color: #6696ac;
-  float: left;
+  float: right;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
@@ -597,29 +597,28 @@ p {
 
 .viderebtn {
   padding: 10px;
-  margin-top: -15px;
-  margin-bottom: 15%;
   width: 25%;
   background: none;
   color: #6696ac;
-  float: left;
+  float: right;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
   border-radius: 0;
   border-color: #6696ac;
   border: solid;
+  margin-bottom: 200px;
+  margin-top: -1vh;
 }
 
 .fill {
   margin: 0;
   border: none;
   border-radius: 0;
-  width: 66.4%;
+  width: 50%;
   padding: 10px;
   float: left;
   font-size: 16px;
-  visibility: hidden;
 }
 
 
