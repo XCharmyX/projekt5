@@ -15,20 +15,28 @@ const setSlidePosition = (slide, index) => {
 }
 slides.forEach(setSlidePosition);
 
+const moveToSlide = (track, currentSlide, targetSlide) => {
+  track.style.transform = "translateX(-" + targetSlide.style.left + ")";
+  currentSlide.classList.remove("current-slide");
+  targetSlide.classList.add("current-slide");
+}
+
 // Når jeg trykker på venstre pil, ryk da en slide til venstre
+prevButton.addEventListener("click", e => {
+  const currentSlide = track.querySelector(".current-slide");
+  const prevtSlide = currentSlide.previousElementSibling;
+
+  moveToSlide(track, currentSlide, prevtSlide);
+})
+
 // Når jeg trykker på højre pil, ryk da en slide til højre
 nextButton.addEventListener("click", e => {
   const currentSlide = track.querySelector(".current-slide");
-  console.log(currentSlide.nextElementSibling);
   const nextSlide = currentSlide.nextElementSibling;
-  const amountToMove = nextSlide.style.left;
 
-
-  // Flyt til næste slide
-  track.style.transform = "translateX(-" + amountToMove + ")";
-  currentSlide.classList.remove("current-slide");
-  nextSlide.classList.add("current-slide");
+  moveToSlide(track, currentSlide, nextSlide);
 })
+
 // Når jeg trykker på en indicator, ryk da til den valgte slide
 
 function validateForm() {
