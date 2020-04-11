@@ -1,3 +1,36 @@
+const track = document.querySelector('.carousel-track');
+const slides = Array.from(track.children);
+
+const nextButton = document.querySelector(".carousel-button.carousel--right");
+const prevButton = document.querySelector(".carousel-button.carousel--left");
+
+const dotsNav = document.querySelector(".carousel-nav");
+const dots = Array.from(dotsNav.children);
+
+const slideWidth = slides[0].getBoundingClientRect().width;
+
+// Placer slides ved siden af hinanden
+const setSlidePosition = (slide, index) => {
+  slide.style.left = slideWidth * index + "px";
+}
+slides.forEach(setSlidePosition);
+
+// Når jeg trykker på venstre pil, ryk da en slide til venstre
+// Når jeg trykker på højre pil, ryk da en slide til højre
+nextButton.addEventListener("click", e => {
+  const currentSlide = track.querySelector(".current-slide");
+  console.log(currentSlide.nextElementSibling);
+  const nextSlide = currentSlide.nextElementSibling;
+  const amountToMove = nextSlide.style.left;
+
+
+  // Flyt til næste slide
+  track.style.transform = "translateX(-" + amountToMove + ")";
+  currentSlide.classList.remove("current-slide");
+  nextSlide.classList.add("current-slide");
+})
+// Når jeg trykker på en indicator, ryk da til den valgte slide
+
 function validateForm() {
   var x = document.forms["myForm"]["fname"].value;
   if (x == "") {

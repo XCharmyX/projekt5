@@ -15,6 +15,81 @@
   display: none;
 }
 
+.carousel {
+  position: relative;
+  height: 600px;
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-track-container {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-track {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  height: 100%;
+  transition: transform 300ms ease-in;
+}
+
+.carousel-slide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: 0;
+}
+
+.carousel--left {
+  left: -40px;
+}
+
+.carousel--right {
+  right: -40px;
+}
+
+.carousel-nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.carousel-indicator {
+  border: 0;
+  border-radius: 50%;
+  width: 5px;
+  height: 20px;
+  background: #707070;
+  margin: 0 12px;
+}
+
+.carousel-indicator.current-slide {
+  background: #202020;
+}
+
+.carousel-button img {
+  width: 12px;
+  height: 20px;
+}
+
 p {
   font-family: 'Roboto Mono', 'monospace';
   font-size: 15px;
@@ -305,12 +380,15 @@ textarea {
   background: lightgreen;
   height: 100%;
   position: relative;
+  overflow: hidden;
 }
 
 .carousel-track {
   padding: 0;
   margin: 0;
   list-style: none;
+  height: 100%;
+  transition: transform 300ms ease-in;
 }
 
 .carousel-slide {
