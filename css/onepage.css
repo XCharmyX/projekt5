@@ -7,6 +7,10 @@
   display: none;
 }
 
+.web-intro-header {
+  display: none;
+}
+
 .tegn {
   display: none;
 }
@@ -90,6 +94,20 @@
   height: 20px;
 }
 
+.carousel-indicator {
+  border: 0;
+  border-radius: 50%;
+  width: 5px;
+  height: 20px;
+  background: #707070;
+  margin: 0 12px;
+  cursor: pointer;
+}
+
+.carousel-indicator:hover {
+   background: #202020;
+}
+
 p {
   font-family: 'Roboto Mono', 'monospace';
   font-size: 15px;
@@ -141,7 +159,6 @@ h2 {
     right: 20px;
     z-index: 3;
     overflow-y: auto;
-    background-color: violet;
 }
 
 
@@ -151,9 +168,16 @@ h2 {
   background-color: cadetblue;
 }
 
+.intro-header {
+  font-family: 'Roboto Mono', 'monospace';
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+
 .cost-header {
   font-family: 'Roboto Mono', 'monospace';
-  padding-left: 15px;
+  padding-left: 20px;
+  margin-top: 50px;
 }
 
 .cost-text {
@@ -365,8 +389,10 @@ textarea {
 .carousel {
   position: relative;
   height: 600px;
-  width: 80%;
-  margin: 0 auto;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
 
 }
 
@@ -418,7 +444,8 @@ textarea {
 .carousel-nav {
   display: flex;
   justify-content: center;
-  padding: 10px 0;
+  padding-bottom: 100px;
+  padding-top: 10px;
 }
 
 .carousel-indicator {
@@ -431,6 +458,10 @@ textarea {
   cursor: pointer;
 }
 
+.carousel-indicator:hover {
+   background: #202020;
+}
+
 .carousel-indicator.current-slide {
   background: #202020;
 }
@@ -440,11 +471,32 @@ textarea {
   height: 20px;
 }
 
+.intro-header {
+  font-family: 'roboto Mono', 'monospace';
+  font-weight: 400;
+  margin-left: 150px;
+  margin-top: 50px;
+  max-width: 1200px;
+  font-size: 40px;
+  color: #707070;
+  position: relative;
+}
+
+.web-intro-header {
+  font-family: 'roboto Mono', 'monospace';
+  font-weight: 400;
+  margin-left: 150px;
+  max-width: 1200px;
+  font-size: 40px;
+  color: #707070;
+  position: relative;
+}
+
 /* "Hvad skal din app koste?" header */
 .cost-header {
   font-family: 'Roboto Mono', 'monospace';
   margin-left: 70px;
-  margin-top: 300px;
+  margin-top: 100px;
   max-width: 1200px;
   font-size: 40px;
   color: #707070;
