@@ -404,6 +404,7 @@ textarea {
   transform: translateY(-50%);
   background: transparent;
   border: 0;
+  cursor: pointer;
 }
 
 .carousel--left {
@@ -427,6 +428,7 @@ textarea {
   height: 20px;
   background: #707070;
   margin: 0 12px;
+  cursor: pointer;
 }
 
 .carousel-indicator.current-slide {

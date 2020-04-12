@@ -21,6 +21,11 @@ const moveToSlide = (track, currentSlide, targetSlide) => {
   targetSlide.classList.add("current-slide");
 }
 
+const updateDots = (currentDot, targetDot) => {
+  currentDot.classList.remove("current-slide");
+  targetDot.classList.add("current-slide");
+}
+
 // Når jeg trykker på venstre pil, ryk da en slide til venstre
 prevButton.addEventListener("click", e => {
   const currentSlide = track.querySelector(".current-slide");
@@ -33,11 +38,29 @@ prevButton.addEventListener("click", e => {
 nextButton.addEventListener("click", e => {
   const currentSlide = track.querySelector(".current-slide");
   const nextSlide = currentSlide.nextElementSibling;
+  const currentDot = dotsNav.querySelector(".current-slide");
+  const nextDot = currentDot.nextElementSibling;
+
 
   moveToSlide(track, currentSlide, nextSlide);
+  updateDots(currentDot, nextDot);
 })
 
 // Når jeg trykker på en indicator, ryk da til den valgte slide
+dotsNav.addEventListener("click", e => {
+   // Hvilken indicator blev der klikket på?
+   const targetDot = e.target.closest("button");
+
+   if (!targetDot) return;
+
+   const currentSlide = track.querySelector(".current-slide");
+   const currentDot = dotsNav.querySelector(".current-slide");
+   const targetIndex = dots.findIndex(dot => dot === targetDot);
+   const targetSlide = slides[targetIndex];
+
+   moveToSlide(track, currentSlide, targetSlide);
+   updateDots(currentDot, targetDot);
+})
 
 function validateForm() {
   var x = document.forms["myForm"]["fname"].value;
