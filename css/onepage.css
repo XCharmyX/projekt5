@@ -385,6 +385,34 @@ textarea {
   visibility: hidden;
 }
 
+.infobox {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+
+}
+
+.infobox .infoboxtext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the infobox */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.infobox:hover .infoboxtext {
+  visibility: visible;
+}
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -793,6 +821,34 @@ p {
   padding: 10px;
   float: left;
   font-size: 16px;
+}
+
+.infobox {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+
+}
+
+.infobox .infoboxtext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the infobox */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.infobox:hover .infoboxtext {
+  visibility: visible;
 }
 
 
