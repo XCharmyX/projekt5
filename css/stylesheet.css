@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*kontakt side*/
+
+.kontakt-sektion {
+	margin: 0;
+	padding: 0;
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+}
+
+
+.containt-section {
+	padding: 200px;
+	background-size: cover;
+	padding-top: 30px;
+	text-align: center;
+	color: white;
+}
+		
+.button{
+	
+	width: 50px;
+	height: auto;
+	float: center;
+	padding-top: 50px;
+	padding-left: 150px;
+	}
+
+
+.containt-section h1{
+	text-align: center;
+	color: #000000; 
+	float: middle;
+}
+
+
+
+.border{
+	width: 100px;
+	height: 10px;
+	background: #34495E;
+	margin: 40px auto;
+}
+
+.containt-form{
+	max-width: 600px;
+	margin: auto;
+	padding: 0 10px;
+	overflow: hidden;
+}
+
+.Kontakt-form-tekst{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 16px 0;
+	border: 0;
+	background: #DBDCDC;
+	padding: 20px 40px;
+	outline: none;
+	color: #000;
+	transition: 0.5s;
+}
+
+.Kontakt-form-tekst:focus{
+	box-shadow: 0 0 10px 4px #34495e;
+}
+
+textarea.Kontakt-form-tekst{
+	resize: none;
+	height: 120px;
+}
+
+.Kontakt-form-btn{
+	float: right;
+	border: 0;
+	background: #000;
+	color: #FFFFFF;
+	padding: 12px 50px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.Kontakt-form-btn:hover{
+	background: #B3C589;
+}
+
+/*kvittering side*/
+
+h2{
+	font-size: 5em;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+	
+}
+
+img{
+	position: absolute;
+	top: 50%;
+	left: 41%;
+	
+}
+
+.tags-input {
+	border: 1px solid #333;
+	display: inline-block;
+}
+
+
+
+.tags-input .tag{
+	font-size: 85%;
+	padding: 0.5em 0.85em;
+	margin: 0.25em 0.1em;
+	display: inline-block;
+	background-color: #fff;
+	transition: all 0.1s linear;
+	cursor: pointer;
+	
+}
+
+.tags-input .tag:hover{
+	
+	background-color: #3af;
+	color: #fff;
+}
+
