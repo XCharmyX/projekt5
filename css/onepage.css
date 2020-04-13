@@ -346,15 +346,15 @@ textarea {
 /* Style the "Add" button */
 .addBtn {
   padding: 10px;
-  width: 25%;
+  width: 20%;
   background: none;
-  color: #6696ac;
+  color: #b3c589;
   float: right;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
   border-radius: 0;
-  border-color: #6696ac;
+  border-color: #b3c589;
   border: solid;
 }
 
@@ -363,15 +363,15 @@ textarea {
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 35%;
-  width: 25%;
+  width: 20%;
   background: none;
-  color: #6696ac;
+  color: #b3c589;
   float: right;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
   border-radius: 0;
-  border-color: #6696ac;
+  border-color: #b3c589;
   border: solid;
   margin-bottom: 200px;
 }
@@ -789,7 +789,7 @@ p {
 /* Style the "Add" button */
 .addBtn {
   padding: 10px;
-  width: 25%;
+  width: 20%;
   background: none;
   color: #b3c589;
   float: right;
@@ -804,7 +804,7 @@ p {
 .viderebtn {
   font-family: 'Roboto Mono', 'monospace';
   padding: 10px;
-  width: 25%;
+  width: 20%;
   background: none;
   color: #b3c589;;
   float: right;
