@@ -659,6 +659,7 @@ p {
   display: inline-block;
   font-size: 20px;
   color: #b3c589;
+  background: none;
   padding: 15px 32px;
   margin-left: 852px;
   margin-top: 10px;
@@ -787,13 +788,13 @@ p {
   padding: 10px;
   width: 25%;
   background: none;
-  color: #6696ac;
+  color: #b3c589;
   float: right;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
   border-radius: 0;
-  border-color: #6696ac;
+  border-color: #b3c589;
   border: solid;
 }
 
@@ -801,13 +802,13 @@ p {
   padding: 10px;
   width: 25%;
   background: none;
-  color: #6696ac;
+  color: #b3c589;;
   float: right;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
   border-radius: 0;
-  border-color: #6696ac;
+  border-color: #b3c589;
   border: solid;
   margin-bottom: 200px;
   margin-top: -1vh;
