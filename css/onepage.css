@@ -333,6 +333,7 @@ textarea {
 
 /* Style the input */
 #myInput {
+  font-family: 'Roboto Mono', 'monospace';
   margin: 0;
   border: none;
   border-radius: 0;
@@ -345,31 +346,32 @@ textarea {
 /* Style the "Add" button */
 .addBtn {
   padding: 10px;
-  width: 25%;
+  width: 20%;
   background: none;
-  color: #6696ac;
+  color: #b3c589;
   float: right;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
   border-radius: 0;
-  border-color: #6696ac;
+  border-color: #b3c589;
   border: solid;
 }
 
 .viderebtn {
+  font-family: 'Roboto Mono', 'monospace';
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 35%;
-  width: 25%;
+  width: 20%;
   background: none;
-  color: #6696ac;
+  color: #b3c589;
   float: right;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
   border-radius: 0;
-  border-color: #6696ac;
+  border-color: #b3c589;
   border: solid;
   margin-bottom: 200px;
 }
@@ -753,7 +755,7 @@ p {
 }
 
 .close:hover {
-  background-color: #6696ac;
+  background-color: #d26d75;
   color: white;
 }
 
@@ -774,6 +776,7 @@ p {
 
 /* Style the input */
 #myInput {
+  font-family: 'Roboto Mono', 'monospace';
   margin: 0;
   border: none;
   border-radius: 0;
@@ -786,7 +789,7 @@ p {
 /* Style the "Add" button */
 .addBtn {
   padding: 10px;
-  width: 25%;
+  width: 20%;
   background: none;
   color: #b3c589;
   float: right;
@@ -799,8 +802,9 @@ p {
 }
 
 .viderebtn {
+  font-family: 'Roboto Mono', 'monospace';
   padding: 10px;
-  width: 25%;
+  width: 20%;
   background: none;
   color: #b3c589;;
   float: right;
