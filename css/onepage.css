@@ -630,12 +630,12 @@ p {
   font-family: 'Roboto Mono', 'monospace';
   display: inline-block;
   font-size: 20px;
-  color: #6696AC;
+  color: #b3c589;
   padding: 15px 32px;
   margin-left: 852px;
   margin-top: 10px;
   margin-bottom: 200px;
-  border: 3px solid #6696AC;
+  border: 3px solid #b3c589;
   cursor: pointer;
 }
 
