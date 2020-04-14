@@ -30,8 +30,11 @@ const updateDots = (currentDot, targetDot) => {
 prevButton.addEventListener("click", e => {
   const currentSlide = track.querySelector(".current-slide");
   const prevtSlide = currentSlide.previousElementSibling;
+  const currentDot = dotsNav.querySelector(".current-slide");
+  const prevDot = currentDot.previousElementSibling;
 
   moveToSlide(track, currentSlide, prevtSlide);
+  updateDots(currentDot, prevDot);
 })
 
 // Når jeg trykker på højre pil, ryk da en slide til højre
