@@ -2,6 +2,97 @@
 /* CSS Document */
 
 
+/*kontakt side*/
+
+
+.kontakt-sektion {
+	margin: 0;
+	padding: 0;
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+}
+
+
+.containt-section {
+	padding: 200px;
+	background-size: cover;
+	padding-top: 30px;
+	text-align: center;
+	color: white;
+}
+		
+.button{
+	
+	width: 50px;
+	height: auto;
+	float: center;
+	padding-top: 50px;
+	padding-left: 150px;
+	}
+
+
+.containt-section h1{
+	text-align: center;
+	color: #000000; 
+	float: middle;
+}
+
+
+
+.border{
+	width: 100px;
+	height: 10px;
+	background: #34495E;
+	margin: 40px auto;
+}
+
+.containt-form{
+	max-width: 600px;
+	margin: auto;
+	padding: 0 10px;
+	overflow: hidden;
+}
+
+.Kontakt-form-tekst{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 16px 0;
+	border: 0;
+	background: #DBDCDC;
+	padding: 20px 40px;
+	outline: none;
+	color: #000;
+	transition: 0.5s;
+}
+
+.Kontakt-form-tekst:focus{
+	box-shadow: 0 0 10px 4px #34495e;
+}
+
+textarea.Kontakt-form-tekst{
+	resize: none;
+	height: 120px;
+}
+
+.Kontakt-form-btn{
+	float: right;
+	border: 0;
+	background: #fff;
+	color: #000;
+	padding: 12px 50px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+
+
+.Kontakt-form-btn:hover{
+	background: #B3C589;
+}
+
+
+
 /*kvittering side*/
 
 
