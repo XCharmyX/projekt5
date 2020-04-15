@@ -3,6 +3,10 @@
 
 
 /*kontakt side*/
+*{
+    font-family: 'Roboto Mono', 'monospace';
+}
+
 
 .kontakt-sektion {
 	margin: 0;
@@ -18,9 +22,9 @@
 	text-align: center;
 	color: white;
 }
-		
+
 .button{
-	
+
 	width: 50px;
 	height: auto;
 	float: center;
@@ -31,7 +35,7 @@
 
 .containt-section h1{
 	text-align: center;
-	color: #000000; 
+	color: #000000;
 	float: middle;
 }
 
@@ -100,14 +104,14 @@ h2{
 	top: 20%;
 	left: 50%;
 	transform: translateX(-50%);
-	
+
 }
 
 img{
 	position: absolute;
 	top: 50%;
 	left: 41%;
-	
+
 }
 
 .tags-input {
@@ -125,12 +129,11 @@ img{
 	background-color: #fff;
 	transition: all 0.1s linear;
 	cursor: pointer;
-	
+
 }
 
 .tags-input .tag:hover{
-	
+
 	background-color: #3af;
 	color: #fff;
 }
-

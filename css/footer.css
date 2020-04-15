@@ -23,7 +23,7 @@ footer {
 body {
     color: #000;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 17px;
     line-height: normal;
     font-family: "Roboto Mono", monospace;
     letter-spacing: -0.013em;
@@ -112,12 +112,13 @@ footer .col33 {
     float: none;
 }
 
-.col25, .col33, .col50, .col100 {
+.col33{
     float: left;
 }
 
 .col33 {
-    width: 33.3333%;
+    width: 33.3%;
+
 }
 
 .social {

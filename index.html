@@ -1,35 +1,217 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-  <body>
-	
-<div class="containt-section">
-  <h1>KONTAKT OS</h1>
-    <form class="Kontakt-form" action="index.html" method="post">
-			
-		<input type="tekst" class="Kontakt-form-tekst" placeholder="Navn*">
-		<input type="tekst" class="Kontakt-form-tekst" placeholder="Virksomhed*">
-		<input type="email" class="Kontakt-form-tekst" placeholder="Email*">
-		<input type="email" class="Kontakt-form-tekst" placeholder="Tlf*">
-		<textarea class="Kontakt-form-tekst" placeholder="Din besked*"></textarea>
-		
-		
-		<a href="thankyou.html" class="Kontakt-form-btn">Send</a>
-    </form>
-</div>
-	
-	  
-	
 
-	
-	
-	
-	
-	
-	
-  </body>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <title>Hjælp til din app</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/onepage.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="description" content="House of Code's onepage hvor du kan få en prisvurdering på din app ide..">
+  <meta name="keywords" content=" House of code, Odense, app, Hjælp, kodning">
+  <script src="hoc.js" defer></script>
+  <script src="script.js" defer> </script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <img src="Img/logopng.png" class="brand-title" alt="House of code Logo"></img>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="#">Forside</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="https://houseofcode.io" target="_blank">House of Code</a>
+</li>
+      </ul>
+    </div>
+  </nav>
+  <div class="cost-header">
+    <h2>Du har en ide <span class="farve-tekst5">til en app</span><span class="tegn2">{</span>
+      <div class="web-problemstilling-header">Hvad skal den <span class="farve-tekst4">koste?</span>
+        <div class="tegn">}</div>
+    </h2>
+  </div>
+  <div class="grid-container">
+    <div class="item1">
+      <p class="cost-text"> <h3> Undrer du dig over, hvad din potentielle app vil koste dig og din virksomhed? Vi guider dig den rette vej!
+
+        Udfyld vores fomular, hvor du kan fortælle os om din ide og din vision. Du kan herefter også vælge fra vores anbefalede features længere nede.
+
+        Derefter vil din informationer blive sendt direkte til os hos House of Code, og så vil vi kontakte dig hurtigst muligt. </h3> </p>
+    </div>
+
+    <div class="item2"><img class="light-bulb" src="img/idea.svg" alt="House of code pærer"></div>
+  </div>
+
+  <div class="problemstilling-header">
+    <h2>Fortæl os om din <span class="farve-tekst2">ide</span><span class="tegn2">{</span>
+      <div class="web-problemstilling-header">Hvad er din <span class="farve-tekst3">vision?</span>
+        <div class="tegn">}</div>
+    </h2>
+  </div>
+  </div>
+  </div>
+
+  <form name="myForm" onsubmit="return validateForm()" method="post">
+    <textarea class="idea" placeholder="Skriv f.eks. dine problemstillinger, tanker ind her..." name="fname"></textarea>
+  </form>
+  <p id="demo"></p>
+
+  <div class="problemstilling-header">
+    <h2>Fortæl os om din <span class="farve-tekst5">app</span><span class="tegn2">{</span>
+      <div class="web-problemstilling-header">Hvad skal den <span class="farve-tekst4">indeholde?</span>
+        <div class="tegn">}</div>
+    </h2>
+  </div>
+  </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <ul class="inputpick" id="myUL">
+        <li>Placeholder text <div class="infobox"><img src="img/quest4.svg" alt="infobox image">
+            <span class="infoboxtext">Placeholder text (Hvad har du valgt)</span>
+          </div>
+        </li>
+        <li>Placeholder text <div class="infobox"><img src="img/quest4.svg" alt="infobox image">
+            <span class="infoboxtext">Placeholder text (Hvad har du valgt)</span>
+          </div>
+        </li>
+        <li>Placeholder text <div class="infobox"><img src="img/quest4.svg" alt="infobox image">
+            <span class="infoboxtext">Placeholder text (Hvad har du valgt)</span>
+          </div>
+        </li>
+        <li> Placeholder text <div class="infobox"><img src="img/quest4.svg" alt="infobox image">
+            <span class="infoboxtext">Placeholder text (Hvad har du valgt)</span>
+          </div>
+        </li>
+        <li>Placeholder text <div class="infobox"><img src="img/quest4.svg" alt="infobox image">
+            <span class="infoboxtext">Placeholder text (Hvad har du valgt)</span>
+          </div>
+        </li>
+        <li>Placeholder text <div class="infobox"><img src="img/quest4.svg" alt="infobox image">
+            <span class="infoboxtext"> Placeholder text (Hvad har du valgt)</span>
+          </div>
+        </li>
+      </ul>
+      <div id="myDIV" class="morebtn">
+        <input type="text" id="myInput" placeholder="Tilføj flere elementer...">
+        <span onclick="newElement()" class="addBtn">Tilføj</span>
+      </div>
+      <div class="morebtn">
+        <div class="fill"></div>
+        <a href="kontakt.html">
+        <button class="viderebtn">Videre</button>
+      </a>
+      </div>
+    </div>
+    <div class="column">
+      <img class="question" src="img/question.svg" alt="questionmark image">
+    </div>
+  </div>
+
+  <div class="intro-header">
+    <h2>Læs om andre cases vi har <span class="farve-tekst5"> lavet</span><span class="tegn2">{</span>
+  </div>
+  <div class="web-intro-header">Vi finder dig den rigtige <span class="farve-tekst4">løsning</span>
+    <div class="tegn">}</div>
+    </h2>
+  </div>
+
+  <div class="carousel">
+    <button class="carousel-button carousel--left">
+      <img src="Img/iconmonstr-angel-left-thin.svg" alt="">
+    </button>
+    <div class="carousel-track-container">
+      <ul class="carousel-track">
+        <li class="carousel-slide current-slide">
+          <img class="carousel-image" src="Img/mir.png" alt="projekt">
+        </li>
+        <li class="carousel-slide">
+          <img class="carousel-image" src="Img/ooono.jpg" alt="projekt">
+        </li>
+        <li class="carousel-slide">
+          <img class="carousel-image" src="Img/wakks.png" alt="projekt">
+        </li>
+        <li class="carousel-slide">
+          <img class="carousel-image" src="Img/stofa.png" alt="projekt">
+        </li>
+      </ul>
+    </div>
+    <button class="carousel-button carousel--right">
+      <img src="Img/iconmonstr-angel-right-thin.svg" alt="">
+    </button>
+  </div>
+
+  <div class="carousel-nav">
+    <button class="carousel-indicator current-slide"></button>
+    <button class="carousel-indicator"></button>
+    <button class="carousel-indicator"></button>
+    <button class="carousel-indicator"></button>
+  </div>
+
+
+
+  <footer id="footer" role="contentinfo">
+    <div class="center">
+      <div class="row footer-content">
+        <div class="col33">
+          <h4>
+            House of Code </h4>
+          <p>
+            Edisonsvej 2
+            <br>
+            5000 Odense C
+          </p>
+          <p>
+            Mejlgade 27, 1. t.h.
+            <br>
+            8000 Århus C
+          </p>
+          <p>
+            CVR: 36030410
+          </p>
+          <p>
+            <a class="social" href="https://houseofcode.io/privatlivspolitik/" title="Privatlivspolitik">Privatlivspolitik</a>
+          </p>
+        </div>
+        <div class="col33">
+          <h4>
+            Start projekt</h4>
+          <p>
+            <a class="social" href="mailto:info@houseofcode.io" title="Skriv til os">info@houseofcode.io</a>
+            <br>
+            <a class="social" href="tel:72170220" title="Ring til os">+45 72 17 02 20</a>
+          </p>
+        </div>
+        <div class="col33">
+          <h4>
+            Socialisér </h4>
+          <ul>
+            <li>
+              <a class="social" href="https://twitter.com/house_of_code" target="_blank" title="House of Code - Twitter">Twitter</a>
+            </li>
+            <li>
+              <a class="social" href="https://www.linkedin.com/company/house-of-code-ivs" target="_blank" title="House of Code - LinkedIn">LinkedIn</a>
+            </li>
+            <li>
+              <a class="social" href="https://www.facebook.com/houseofcodeaps" target="_blank" title="House of Code - Facebook">Facebook</a>
+            </li>
+            <li>
+              <a class="social" href="https://www.instagram.com/houseofcode/" target="_blank" title="House of Code - Instagram">Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </footer>
+</body>
+
 </html>
