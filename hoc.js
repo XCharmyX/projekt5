@@ -143,6 +143,7 @@ function newElement() {
     }
   }
 }
+
 //top button
 var mybutton = document.getElementById("scrollbtn");
 
