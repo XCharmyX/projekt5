@@ -3,44 +3,53 @@
 <head>
 <meta charset="utf-8">
 <title>Untitled Document</title>
-	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-	  <link rel="stylesheet" href="css/footer.css">
-	<link rel="stylesheet" type="text/css" href="css/nav.css">
+	<link rel="stylesheet" href="css/stylesheet.css">
+   <link rel="stylesheet" href="css/footer.css">
+   <link rel="stylesheet" href="css/nav.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  <script src="script.js" defer> </script>
+
 
 
 </head>
   <body>
-<nav>
-	<nav class="navbar">
-		<div class="brand-title"> House of Code </div>
-		<a href="#" class="toggle-button">
-			<span class="bar"></span>
-			<span class="bar"></span>
-			<span class="bar"></span>
-		</a>
-		<div class="navbar-links">
-			<ul>
-				<li><a href="index.html">Forside</a></li>
-				<li><a href="#">Kontakt</a></li>
-				<li><a href="https://houseofcode.io" target="_blank">House of Code</a>
-			</ul>
-		</div>
-	</nav>
-</nav>
-<div class="containt-section">
-  <h1>KONTAKT OS</h1>
-    <form class="Kontakt-form" action="kontakt.html" method="post">
-
-		<input type="tekst" class="Kontakt-form-tekst" placeholder="Navn*">
-		<input type="tekst" class="Kontakt-form-tekst" placeholder="Virksomhed*">
-		<input type="email" class="Kontakt-form-tekst" placeholder="Email*">
-		<input type="email" class="Kontakt-form-tekst" placeholder="Tlf*">
-		<textarea class="Kontakt-form-tekst" placeholder="Din besked*"></textarea>
-
-
-		<a href="kontakt.html" class="Kontakt-form-btn">Send</a>
-    </form>
+		<nav class="navbar">
+			<img src="img/logopng.png" class="brand-title" alt="House of code Logo"></img>
+			<a href="#" class="toggle-button">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</a>
+			<div class="navbar-links">
+				<ul>
+					<li><a href="index.html">Forside</a></li>
+					<li><a href="#">Kontakt</a></li>
+					<li><a href="https://houseofcode.io" target="_blank">House of Code</a>
+		</li>
+				</ul>
+			</div>
+		</nav>
+<div class="formwrapper">
+	<div class="formk">
+			<label class="navntk">Navn*</label>
+			<br>
+			<input type="text" name="name" placeholder="Skriv dit fulde navn her">
+			<br><br>
+			<label class="emailtk">Email*</label>
+			<br>
+			<input type="text" name="mail" placeholder="Skriv din email her">
+			<br><br>
+			<label class="emnetk">Emne*</label>
+			<br>
+			<input type="text" name="subject" placeholder="Emne">
+			<br><br>
+			<p class="bedskedtk">Besked</p>
+			<textarea name="message" rows="10" cols="22" placeholder="Skriv din besked her:" id="textarea"></textarea>
+			<a href="#"> </a>
+			<input type="submit" class="send_button" name="submit">
+		</form>
+	</div>
 </div>
 
 <footer id="footer" role="contentinfo">
@@ -63,16 +72,16 @@
 					CVR: 36030410
 				</p>
 				<p>
-					<a href="https://houseofcode.io/privatlivspolitik/" title="Privatlivspolitik">Privatlivspolitik</a>
+					<a class="social" href="https://houseofcode.io/privatlivspolitik/" title="Privatlivspolitik">Privatlivspolitik</a>
 				</p>
 			</div>
 			<div class="col33">
 				<h4>
 					Start projekt</h4>
 				<p>
-					<a href="mailto:info@houseofcode.io" title="Skriv til os">info@houseofcode.io</a>
+					<a class="social" href="mailto:info@houseofcode.io" title="Skriv til os">info@houseofcode.io</a>
 					<br>
-					<a href="tel:72170220" title="Ring til os">+45 72 17 02 20</a>
+					<a class="social" href="tel:72170220" title="Ring til os">+45 72 17 02 20</a>
 				</p>
 			</div>
 			<div class="col33">
@@ -80,16 +89,16 @@
 					Socialisér </h4>
 				<ul>
 					<li>
-						<a href="https://twitter.com/house_of_code" target="_blank" title="House of Code - Twitter">Twitter</a>
+						<a class="social" href="https://twitter.com/house_of_code" target="_blank" title="House of Code - Twitter">Twitter</a>
 					</li>
 					<li>
-						<a href="https://www.linkedin.com/company/house-of-code-ivs" target="_blank" title="House of Code - LinkedIn">LinkedIn</a>
+						<a class="social" href="https://www.linkedin.com/company/house-of-code-ivs" target="_blank" title="House of Code - LinkedIn">LinkedIn</a>
 					</li>
 					<li>
-						<a href="https://www.facebook.com/houseofcodeaps" target="_blank" title="House of Code - Facebook">Facebook</a>
+						<a class="social" href="https://www.facebook.com/houseofcodeaps" target="_blank" title="House of Code - Facebook">Facebook</a>
 					</li>
 					<li>
-						<a href="https://www.instagram.com/houseofcode/" target="_blank" title="House of Code - Instagram">Instagram</a>
+						<a class="social" href="https://www.instagram.com/houseofcode/" target="_blank" title="House of Code - Instagram">Instagram</a>
 					</li>
 				</ul>
 			</div>
